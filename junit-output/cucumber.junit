@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="14.266054">
+<testcase classname="OrangeHRM create user feature" name="OrangeHRM  create a new employee scenario" time="7.919869">
+<system-out><![CDATA[Given User is already on Login page.........................................passed
+When Title of Login page is OrangeHRM.......................................passed
+Then User enters "admin" and "Password".....................................passed
+Then User clicks on Login button............................................passed
+Then User is on Home page...................................................passed
+Then User moves to Admin page...............................................passed
+Then User clicks on Add button..............................................passed
+Then User moves to Add User page............................................passed
+Then User creates "Tom Alter" and "Tom" and "test123" and "test123".........passed
+Then User clicks Save button................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM create user feature" name="OrangeHRM  create a new employee scenario 2" time="6.346185">
+<system-out><![CDATA[Given User is already on Login page.........................................passed
+When Title of Login page is OrangeHRM.......................................passed
+Then User enters "admin" and "Password".....................................passed
+Then User clicks on Login button............................................passed
+Then User is on Home page...................................................passed
+Then User moves to Admin page...............................................passed
+Then User clicks on Add button..............................................passed
+Then User moves to Add User page............................................passed
+Then User creates "John D" and "John" and "test456" and "test456"...........passed
+Then User clicks Save button................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
