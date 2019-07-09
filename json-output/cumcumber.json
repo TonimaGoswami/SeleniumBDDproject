@@ -3,370 +3,149 @@
     "line": 1,
     "elements": [
       {
-        "line": 17,
-        "name": "OrangeHRM  create a new employee scenario",
+        "line": 2,
+        "name": "OrangeHRM add Employee scenario",
         "description": "",
-        "id": "orangehrm-create-user-feature;orangehrm--create-a-new-employee-scenario;;2",
+        "id": "add-employee-feature;orangehrm-add-employee-scenario",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3703169635,
+              "duration": 3559461278,
               "status": "passed"
             },
-            "line": 3,
+            "line": 4,
             "name": "User is already on Login page",
             "match": {
-              "location": "LoginStepDefinition.user_already_on_login_page()"
+              "location": "AddEmployeeStepDefinition.user_already_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 10076212,
+              "duration": 11511838,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "Title of Login page is OrangeHRM",
             "match": {
-              "location": "LoginStepDefinition.title_of_login_page_is_OrangeHRM()"
+              "location": "AddEmployeeStepDefinition.title_of_login_page_is_OrangeHRM()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 262445649,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User enters \"admin\" and \"Password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "admin",
-                  "offset": 13
-                },
-                {
-                  "val": "Password",
-                  "offset": 25
-                }
-              ],
-              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1502566628,
+              "duration": 256291606,
               "status": "passed"
             },
             "line": 6,
-            "name": "User clicks on Login button",
+            "name": "User enters username and password",
             "match": {
-              "location": "LoginStepDefinition.user_clicks_on_Login_button()"
+              "location": "AddEmployeeStepDefinition.user_enters_username_and_password(DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "admin",
+                  "Password"
+                ],
+                "line": 7
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 43069923,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User is on Home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1050811464,
+              "duration": 1552473459,
               "status": "passed"
             },
             "line": 8,
-            "name": "User moves to Admin page",
-            "match": {
-              "location": "LoginStepDefinition.user_moves_to_admin_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 699250243,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User clicks on Add button",
-            "match": {
-              "location": "LoginStepDefinition.user_clicks_on_add_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 51395891,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User moves to Add User page",
-            "match": {
-              "location": "LoginStepDefinition.user_moves_to_add_user_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 391238034,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User creates \"Tom Alter\" and \"Tom\" and \"test123\" and \"test123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Tom Alter",
-                  "offset": 14
-                },
-                {
-                  "val": "Tom",
-                  "offset": 30
-                },
-                {
-                  "val": "test123",
-                  "offset": 40
-                },
-                {
-                  "val": "test123",
-                  "offset": 54
-                }
-              ],
-              "location": "LoginStepDefinition.user_creates_EmployeeName_and_Username_and_Password_and_Confirm_Password(String,String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4,
-              5
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 93961296,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User clicks Save button",
-            "match": {
-              "location": "LoginStepDefinition.user_clicks_save_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 111884280,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "close the browser",
-            "match": {
-              "location": "LoginStepDefinition.close_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 18,
-        "name": "OrangeHRM  create a new employee scenario",
-        "description": "",
-        "id": "orangehrm-create-user-feature;orangehrm--create-a-new-employee-scenario;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2489010266,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "User is already on Login page",
-            "match": {
-              "location": "LoginStepDefinition.user_already_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 8773479,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Title of Login page is OrangeHRM",
-            "match": {
-              "location": "LoginStepDefinition.title_of_login_page_is_OrangeHRM()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 280527390,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User enters \"admin\" and \"Password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "admin",
-                  "offset": 13
-                },
-                {
-                  "val": "Password",
-                  "offset": 25
-                }
-              ],
-              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1402024385,
-              "status": "passed"
-            },
-            "line": 6,
             "name": "User clicks on Login button",
             "match": {
-              "location": "LoginStepDefinition.user_clicks_on_Login_button()"
+              "location": "AddEmployeeStepDefinition.user_clicks_on_Login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 41791564,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User is on Home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 977181015,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User moves to Admin page",
-            "match": {
-              "location": "LoginStepDefinition.user_moves_to_admin_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 497160780,
+              "duration": 43802659,
               "status": "passed"
             },
             "line": 9,
-            "name": "User clicks on Add button",
+            "name": "User is on Home page",
             "match": {
-              "location": "LoginStepDefinition.user_clicks_on_add_button()"
+              "location": "AddEmployeeStepDefinition.user_is_on_home_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 38891738,
+              "duration": 912849716,
               "status": "passed"
             },
             "line": 10,
-            "name": "User moves to Add User page",
+            "name": "User moves to add employee page",
             "match": {
-              "location": "LoginStepDefinition.user_moves_to_add_user_page()"
+              "location": "AddEmployeeStepDefinition.user_moves_to_add_employee_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 407126380,
+              "duration": 555853070,
               "status": "passed"
             },
             "line": 11,
-            "name": "User creates \"John D\" and \"John\" and \"test456\" and \"test456\"",
+            "name": "User enters firstname and lastname and Username and Password and Confirm_Password",
             "match": {
-              "arguments": [
-                {
-                  "val": "John D",
-                  "offset": 14
-                },
-                {
-                  "val": "John",
-                  "offset": 27
-                },
-                {
-                  "val": "test456",
-                  "offset": 38
-                },
-                {
-                  "val": "test456",
-                  "offset": 52
-                }
-              ],
-              "location": "LoginStepDefinition.user_creates_EmployeeName_and_Username_and_Password_and_Confirm_Password(String,String,String,String)"
+              "location": "AddEmployeeStepDefinition.user_enters_firstname_and_lastname_and_Username_and_Password_and_Confirm_Password(DataTable)"
             },
-            "matchedColumns": [
-              2,
-              3,
-              4,
-              5
+            "rows": [
+              {
+                "cells": [
+                  "Tom",
+                  "Potter",
+                  "tom_p",
+                  "test@123",
+                  "test@123"
+                ],
+                "line": 12
+              }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 84899588,
+              "duration": 817357163,
               "status": "passed"
             },
-            "line": 12,
-            "name": "User clicks Save button",
+            "line": 13,
+            "name": "User clicks save button",
             "match": {
-              "location": "LoginStepDefinition.user_clicks_save_button()"
+              "location": "AddEmployeeStepDefinition.user_clicks_save_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 118798452,
+              "duration": 126685299,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "close the browser",
             "match": {
-              "location": "LoginStepDefinition.close_the_browser()"
+              "location": "AddEmployeeStepDefinition.close_the_browser()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "OrangeHRM create user feature",
+    "name": "Add Employee feature",
     "description": "",
-    "id": "orangehrm-create-user-feature",
+    "id": "add-employee-feature",
     "keyword": "Feature",
-    "uri": "/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/create_user.feature"
+    "uri": "/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/addEmployee.feature"
   }
 ]
