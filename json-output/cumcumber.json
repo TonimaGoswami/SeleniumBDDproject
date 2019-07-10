@@ -12,130 +12,170 @@
         "steps": [
           {
             "result": {
-              "duration": 3559461278,
+              "duration": 4047817169,
               "status": "passed"
             },
             "line": 4,
             "name": "User is already on Login page",
             "match": {
-              "location": "AddEmployeeStepDefinition.user_already_on_login_page()"
+              "location": "AddemployeeWithMapStepdefinition.user_already_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 11511838,
+              "duration": 9515318,
               "status": "passed"
             },
             "line": 5,
             "name": "Title of Login page is OrangeHRM",
             "match": {
-              "location": "AddEmployeeStepDefinition.title_of_login_page_is_OrangeHRM()"
+              "location": "AddemployeeWithMapStepdefinition.title_of_login_page_is_OrangeHRM()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 256291606,
+              "duration": 312618707,
               "status": "passed"
             },
             "line": 6,
             "name": "User enters username and password",
             "match": {
-              "location": "AddEmployeeStepDefinition.user_enters_username_and_password(DataTable)"
+              "location": "AddemployeeWithMapStepdefinition.user_enters_username_and_password(DataTable)"
             },
             "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 7
+              },
               {
                 "cells": [
                   "admin",
                   "Password"
                 ],
-                "line": 7
+                "line": 8
               }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1552473459,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on Login button",
-            "match": {
-              "location": "AddEmployeeStepDefinition.user_clicks_on_Login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 43802659,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User is on Home page",
-            "match": {
-              "location": "AddEmployeeStepDefinition.user_is_on_home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 912849716,
+              "duration": 1481604845,
               "status": "passed"
             },
             "line": 10,
-            "name": "User moves to add employee page",
+            "name": "User clicks on Login button",
             "match": {
-              "location": "AddEmployeeStepDefinition.user_moves_to_add_employee_page()"
+              "location": "AddemployeeWithMapStepdefinition.user_clicks_on_Login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 555853070,
+              "duration": 58288552,
               "status": "passed"
             },
             "line": 11,
-            "name": "User enters firstname and lastname and Username and Password and Confirm_Password",
+            "name": "User is on Home page",
             "match": {
-              "location": "AddEmployeeStepDefinition.user_enters_firstname_and_lastname_and_Username_and_Password_and_Confirm_Password(DataTable)"
+              "location": "AddemployeeWithMapStepdefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1107020235,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User moves to add employee page",
+            "match": {
+              "location": "AddemployeeWithMapStepdefinition.user_moves_to_add_employee_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2648130977,
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d75.0.3770.100)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dMac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tonimas-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:10c1:3c6e:ef6f:b409%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.4\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53131}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 01ecc507c0d2af37eab0b4adbcd90ad8\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat stepDefinition.AddemployeeWithMapStepdefinition.user_enters_employee_details(AddemployeeWithMapStepdefinition.java:73)\n\tat ✽.Then User enters employee details(/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/addEmployeeMap.feature:13)\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "User enters employee details",
+            "match": {
+              "location": "AddemployeeWithMapStepdefinition.user_enters_employee_details(DataTable)"
             },
             "rows": [
               {
                 "cells": [
+                  "firstname",
+                  "lastname",
+                  "Employee_Id",
+                  "Username",
+                  "Password",
+                  "Confirm_Password"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
                   "Tom",
                   "Potter",
+                  "2040",
                   "tom_p",
                   "test@123",
                   "test@123"
                 ],
-                "line": 12
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Harry",
+                  "D",
+                  "2041",
+                  "harry_d",
+                  "test@456",
+                  "test@456"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "John",
+                  "B",
+                  "2042",
+                  "john_b",
+                  "test@789",
+                  "test@789"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Vivan",
+                  "G",
+                  "2043",
+                  "vivan_g",
+                  "test@012",
+                  "test@012"
+                ],
+                "line": 18
               }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 817357163,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 13,
-            "name": "User clicks save button",
-            "match": {
-              "location": "AddEmployeeStepDefinition.user_clicks_save_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 126685299,
-              "status": "passed"
-            },
-            "line": 14,
+            "line": 21,
             "name": "close the browser",
             "match": {
-              "location": "AddEmployeeStepDefinition.close_the_browser()"
+              "location": "AddemployeeWithMapStepdefinition.close_the_browser()"
             },
             "keyword": "Then "
           }
@@ -146,6 +186,6 @@
     "description": "",
     "id": "add-employee-feature",
     "keyword": "Feature",
-    "uri": "/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/addEmployee.feature"
+    "uri": "/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/addEmployeeMap.feature"
   }
 ]

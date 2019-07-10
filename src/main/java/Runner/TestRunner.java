@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/addEmployee.feature", //the path of feature file 
+@CucumberOptions(features="/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/addEmployeeMap.feature", //the path of feature file 
 				glue= {"stepDefinition"}, //the path of stepDefinition file
 				format={"pretty", "html:test-output", "json:json-output/cumcumber.json", "junit:junit-output/cucumber.junit"}, //to generate different types of reporting
 				strict = true, // it will check if any step is not defined in step definition file
