@@ -1,186 +1,455 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/addEmployeeMap.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/tagging.feature");
 formatter.feature({
-  "line": 1,
-  "name": "Add Employee feature",
+  "line": 2,
+  "name": "OrangeHRM application testing",
   "description": "",
-  "id": "add-employee-feature",
-  "keyword": "Feature"
+  "id": "orangehrm-application-testing",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@FunctionalTest"
+    }
+  ]
 });
 formatter.scenario({
-  "line": 2,
-  "name": "OrangeHRM add Employee scenario",
-  "description": "",
-  "id": "add-employee-feature;orangehrm-add-employee-scenario",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 4,
-  "name": "User is already on Login page",
-  "keyword": "Given "
-});
-formatter.step({
   "line": 5,
-  "name": "Title of Login page is OrangeHRM",
-  "keyword": "When "
+  "name": "Login with valid username and valid password",
+  "description": "",
+  "id": "orangehrm-application-testing;login-with-valid-username-and-valid-password",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 4,
+      "name": "@Regressiontest"
+    }
+  ]
 });
 formatter.step({
   "line": 6,
-  "name": "User enters username and password",
-  "rows": [
+  "name": "This is valid login test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_valid_login_test_case()"
+});
+formatter.result({
+  "duration": 147418798,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 9,
+  "name": "Login with invalid username and valid password",
+  "description": "",
+  "id": "orangehrm-application-testing;login-with-invalid-username-and-valid-password",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 7
+      "line": 8,
+      "name": "@SmokeTest"
     },
     {
-      "cells": [
-        "admin",
-        "Password"
-      ],
-      "line": 8
+      "line": 8,
+      "name": "@Regressiontest"
     }
-  ],
-  "keyword": "Then "
+  ]
 });
 formatter.step({
   "line": 10,
-  "name": "User clicks on Login button",
-  "keyword": "Then "
+  "name": "This is invalid login test case",
+  "keyword": "Given "
 });
-formatter.step({
-  "line": 11,
-  "name": "User is on Home page",
-  "keyword": "Then "
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_invalid_login_test_case()"
 });
-formatter.step({
-  "line": 12,
-  "name": "User moves to add employee page",
-  "keyword": "Then "
+formatter.result({
+  "duration": 32585,
+  "status": "passed"
 });
-formatter.step({
+formatter.scenario({
   "line": 13,
-  "name": "User enters employee details",
-  "rows": [
+  "name": "Create an employee",
+  "description": "",
+  "id": "orangehrm-application-testing;create-an-employee",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "firstname",
-        "lastname",
-        "Employee_Id",
-        "Username",
-        "Password",
-        "Confirm_Password"
-      ],
-      "line": 14
-    },
-    {
-      "cells": [
-        "Tom",
-        "Potter",
-        "2040",
-        "tom_p",
-        "test@123",
-        "test@123"
-      ],
-      "line": 15
-    },
-    {
-      "cells": [
-        "Harry",
-        "D",
-        "2041",
-        "harry_d",
-        "test@456",
-        "test@456"
-      ],
-      "line": 16
-    },
-    {
-      "cells": [
-        "John",
-        "B",
-        "2042",
-        "john_b",
-        "test@789",
-        "test@789"
-      ],
-      "line": 17
-    },
-    {
-      "cells": [
-        "Vivan",
-        "G",
-        "2043",
-        "vivan_g",
-        "test@012",
-        "test@012"
-      ],
-      "line": 18
+      "line": 12,
+      "name": "@SmokeTest"
     }
-  ],
-  "keyword": "Then "
+  ]
 });
 formatter.step({
+  "line": 14,
+  "name": "This is employee test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_employee_test_case()"
+});
+formatter.result({
+  "duration": 49457,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "Create an admin",
+  "description": "",
+  "id": "orangehrm-application-testing;create-an-admin",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 16,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 18,
+  "name": "This is admin test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_admin_test_case()"
+});
+formatter.result({
+  "duration": 42320,
+  "status": "passed"
+});
+formatter.scenario({
   "line": 21,
-  "name": "close the browser",
-  "keyword": "Then "
+  "name": "Assign leave for an employee",
+  "description": "",
+  "id": "orangehrm-application-testing;assign-leave-for-an-employee",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 20,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 22,
+  "name": "This is leave test case",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "AddemployeeWithMapStepdefinition.user_already_on_login_page()"
+  "location": "TaggingStepDefinition.this_is_leave_test_case()"
 });
 formatter.result({
-  "duration": 4047817169,
+  "duration": 61472,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 25,
+  "name": "Create timesheet for an employee",
+  "description": "",
+  "id": "orangehrm-application-testing;create-timesheet-for-an-employee",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 24,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 26,
+  "name": "This is timesheet test case",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "AddemployeeWithMapStepdefinition.title_of_login_page_is_OrangeHRM()"
+  "location": "TaggingStepDefinition.this_is_timesheet_test_case()"
 });
 formatter.result({
-  "duration": 9515318,
+  "duration": 57718,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 29,
+  "name": "Search an employee",
+  "description": "",
+  "id": "orangehrm-application-testing;search-an-employee",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 28,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 30,
+  "name": "This is employee test case",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "AddemployeeWithMapStepdefinition.user_enters_username_and_password(DataTable)"
+  "location": "TaggingStepDefinition.this_is_employee_test_case()"
 });
 formatter.result({
-  "duration": 312618707,
+  "duration": 65136,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 33,
+  "name": "Create attendance Total Summary Report for an employee",
+  "description": "",
+  "id": "orangehrm-application-testing;create-attendance-total-summary-report-for-an-employee",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 32,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 34,
+  "name": "This is attendance test case",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "AddemployeeWithMapStepdefinition.user_clicks_on_Login_button()"
+  "location": "TaggingStepDefinition.this_is_attendance_test_case()"
 });
 formatter.result({
-  "duration": 1481604845,
+  "duration": 39968,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 37,
+  "name": "Add job title",
+  "description": "",
+  "id": "orangehrm-application-testing;add-job-title",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 36,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 38,
+  "name": "This is job test case",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "AddemployeeWithMapStepdefinition.user_is_on_home_page()"
+  "location": "TaggingStepDefinition.this_is_job_test_case()"
 });
 formatter.result({
-  "duration": 58288552,
+  "duration": 67045,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 41,
+  "name": "Search for candidate",
+  "description": "",
+  "id": "orangehrm-application-testing;search-for-candidate",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 40,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 40,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 42,
+  "name": "This is candidate test case",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "AddemployeeWithMapStepdefinition.user_moves_to_add_employee_page()"
+  "location": "TaggingStepDefinition.this_is_candidate_test_case()"
 });
 formatter.result({
-  "duration": 1107020235,
+  "duration": 45286,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 45,
+  "name": "Search for vacancy",
+  "description": "",
+  "id": "orangehrm-application-testing;search-for-vacancy",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 44,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 44,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 46,
+  "name": "This is vacancy test case",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "AddemployeeWithMapStepdefinition.user_enters_employee_details(DataTable)"
+  "location": "TaggingStepDefinition.this_is_vacancy_test_case()"
 });
 formatter.result({
-  "duration": 2648130977,
-  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d75.0.3770.100)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dMac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tonimas-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:10c1:3c6e:ef6f:b409%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.4\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53131}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 01ecc507c0d2af37eab0b4adbcd90ad8\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat stepDefinition.AddemployeeWithMapStepdefinition.user_enters_employee_details(AddemployeeWithMapStepdefinition.java:73)\n\tat ✽.Then User enters employee details(/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/addEmployeeMap.feature:13)\n",
-  "status": "failed"
+  "duration": 59085,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 49,
+  "name": "Verify Orange HRM logo",
+  "description": "",
+  "id": "orangehrm-application-testing;verify-orange-hrm-logo",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 48,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 48,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 50,
+  "name": "This is logo test case",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "AddemployeeWithMapStepdefinition.close_the_browser()"
+  "location": "TaggingStepDefinition.this_is_logo_test_case()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 61224,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 53,
+  "name": "Verify Change Password link",
+  "description": "",
+  "id": "orangehrm-application-testing;verify-change-password-link",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 52,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 54,
+  "name": "This is password test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_password_test_case()"
+});
+formatter.result({
+  "duration": 55514,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 57,
+  "name": "Verify all the links on homepage",
+  "description": "",
+  "id": "orangehrm-application-testing;verify-all-the-links-on-homepage",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 56,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 58,
+  "name": "This is homepage test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_homepage_test_case()"
+});
+formatter.result({
+  "duration": 57081,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 61,
+  "name": "search for Performance review of an employee",
+  "description": "",
+  "id": "orangehrm-application-testing;search-for-performance-review-of-an-employee",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 60,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 62,
+  "name": "This is Performance review test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_Performance_review_test_case()"
+});
+formatter.result({
+  "duration": 41788,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 65,
+  "name": "Application logout",
+  "description": "",
+  "id": "orangehrm-application-testing;application-logout",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 64,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 64,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 66,
+  "name": "This is logout test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_logout_test_case()"
+});
+formatter.result({
+  "duration": 460009,
+  "status": "passed"
 });
 });

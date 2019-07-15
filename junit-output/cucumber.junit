@@ -1,41 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.664996">
-<testcase classname="Add Employee feature" name="OrangeHRM add Employee scenario" time="9.664996">
-<failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=75.0.3770.100)&#10;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Tonimas-MacBook-Air.local', ip: 'fe80:0:0:0:10c1:3c6e:ef6f:b409%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_131'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53131}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}&#10;Session ID: 01ecc507c0d2af37eab0b4adbcd90ad8&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)&#10;&#9;at stepDefinition.AddemployeeWithMapStepdefinition.user_enters_employee_details(AddemployeeWithMapStepdefinition.java:73)&#10;&#9;at ✽.Then User enters employee details(/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/addEmployeeMap.feature:13)&#10;"><![CDATA[Given User is already on Login page.........................................passed
-When Title of Login page is OrangeHRM.......................................passed
-Then User enters username and password......................................passed
-Then User clicks on Login button............................................passed
-Then User is on Home page...................................................passed
-Then User moves to add employee page........................................passed
-Then User enters employee details...........................................failed
-Then close the browser......................................................skipped
-
-StackTrace:
-org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Tonimas-MacBook-Air.local', ip: 'fe80:0:0:0:10c1:3c6e:ef6f:b409%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53131}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 01ecc507c0d2af37eab0b4adbcd90ad8
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-	at stepDefinition.AddemployeeWithMapStepdefinition.user_enters_employee_details(AddemployeeWithMapStepdefinition.java:73)
-	at ✽.Then User enters employee details(/Users/tanu/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/addEmployeeMap.feature:13)
-]]></failure>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="0.148614">
+<testcase classname="OrangeHRM application testing" name="Login with valid username and valid password" time="0.147419">
+<system-out><![CDATA[Given This is valid login test case.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Login with invalid username and valid password" time="0.000033">
+<system-out><![CDATA[Given This is invalid login test case.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Create an employee" time="0.000049">
+<system-out><![CDATA[Given This is employee test case............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Create an admin" time="0.000042">
+<system-out><![CDATA[Given This is admin test case...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Assign leave for an employee" time="0.000061">
+<system-out><![CDATA[Given This is leave test case...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Create timesheet for an employee" time="0.000058">
+<system-out><![CDATA[Given This is timesheet test case...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Search an employee" time="0.000065">
+<system-out><![CDATA[Given This is employee test case............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Create attendance Total Summary Report for an employee" time="0.00004">
+<system-out><![CDATA[Given This is attendance test case..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Add job title" time="0.000067">
+<system-out><![CDATA[Given This is job test case.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Search for candidate" time="0.000045">
+<system-out><![CDATA[Given This is candidate test case...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Search for vacancy" time="0.000059">
+<system-out><![CDATA[Given This is vacancy test case.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Verify Orange HRM logo" time="0.000061">
+<system-out><![CDATA[Given This is logo test case................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Verify Change Password link" time="0.000056">
+<system-out><![CDATA[Given This is password test case............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Verify all the links on homepage" time="0.000057">
+<system-out><![CDATA[Given This is homepage test case............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="search for Performance review of an employee" time="0.000042">
+<system-out><![CDATA[Given This is Performance review test case..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM application testing" name="Application logout" time="0.00046">
+<system-out><![CDATA[Given This is logout test case..............................................passed
+]]></system-out>
 </testcase>
 </testsuite>
