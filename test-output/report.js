@@ -39,7 +39,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_valid_login_test_case()"
 });
 formatter.result({
-  "duration": 147418798,
+  "duration": 278103493,
   "status": "passed"
 });
 formatter.scenario({
@@ -69,7 +69,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_invalid_login_test_case()"
 });
 formatter.result({
-  "duration": 32585,
+  "duration": 44580,
   "status": "passed"
 });
 formatter.scenario({
@@ -95,7 +95,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_employee_test_case()"
 });
 formatter.result({
-  "duration": 49457,
+  "duration": 43456,
   "status": "passed"
 });
 formatter.scenario({
@@ -121,7 +121,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_admin_test_case()"
 });
 formatter.result({
-  "duration": 42320,
+  "duration": 43848,
   "status": "passed"
 });
 formatter.scenario({
@@ -147,7 +147,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_leave_test_case()"
 });
 formatter.result({
-  "duration": 61472,
+  "duration": 50524,
   "status": "passed"
 });
 formatter.scenario({
@@ -173,7 +173,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_timesheet_test_case()"
 });
 formatter.result({
-  "duration": 57718,
+  "duration": 54153,
   "status": "passed"
 });
 formatter.scenario({
@@ -199,7 +199,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_employee_test_case()"
 });
 formatter.result({
-  "duration": 65136,
+  "duration": 45733,
   "status": "passed"
 });
 formatter.scenario({
@@ -225,7 +225,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_attendance_test_case()"
 });
 formatter.result({
-  "duration": 39968,
+  "duration": 58502,
   "status": "passed"
 });
 formatter.scenario({
@@ -251,7 +251,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_job_test_case()"
 });
 formatter.result({
-  "duration": 67045,
+  "duration": 68286,
   "status": "passed"
 });
 formatter.scenario({
@@ -281,7 +281,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_candidate_test_case()"
 });
 formatter.result({
-  "duration": 45286,
+  "duration": 59038,
   "status": "passed"
 });
 formatter.scenario({
@@ -311,7 +311,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_vacancy_test_case()"
 });
 formatter.result({
-  "duration": 59085,
+  "duration": 59773,
   "status": "passed"
 });
 formatter.scenario({
@@ -341,7 +341,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_logo_test_case()"
 });
 formatter.result({
-  "duration": 61224,
+  "duration": 63697,
   "status": "passed"
 });
 formatter.scenario({
@@ -367,7 +367,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_password_test_case()"
 });
 formatter.result({
-  "duration": 55514,
+  "duration": 55630,
   "status": "passed"
 });
 formatter.scenario({
@@ -393,7 +393,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_homepage_test_case()"
 });
 formatter.result({
-  "duration": 57081,
+  "duration": 69017,
   "status": "passed"
 });
 formatter.scenario({
@@ -419,7 +419,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_Performance_review_test_case()"
 });
 formatter.result({
-  "duration": 41788,
+  "duration": 58473,
   "status": "passed"
 });
 formatter.scenario({
@@ -449,7 +449,7 @@ formatter.match({
   "location": "TaggingStepDefinition.this_is_logout_test_case()"
 });
 formatter.result({
-  "duration": 460009,
+  "duration": 459965,
   "status": "passed"
 });
 });

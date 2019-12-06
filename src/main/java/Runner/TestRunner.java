@@ -12,8 +12,10 @@ import cucumber.api.junit.Cucumber;
 				strict = true, // it will check if any step is not defined in step definition file
 				dryRun = false , // dryRun should be false to execute the test, it checks one to one mapping between feature file and step def file 
 				monochrome = true, // display the output in readable format
+				// OR (,) : @SmokeTest OR @Regressiontest
 				tags = {"@SmokeTest, @Regressiontest"}
-		
+				// AND : 	tags = {"@SmokeTest", "@Regressiontest"}
+				// To skip any tag use ~: tags = {"~@SmokeTest", "@Regressiontest"}
 		)
 
 

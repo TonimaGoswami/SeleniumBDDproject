@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="0.148614">
-<testcase classname="OrangeHRM application testing" name="Login with valid username and valid password" time="0.147419">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="0.279339">
+<testcase classname="OrangeHRM application testing" name="Login with valid username and valid password" time="0.278103">
 <system-out><![CDATA[Given This is valid login test case.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Login with invalid username and valid password" time="0.000033">
+<testcase classname="OrangeHRM application testing" name="Login with invalid username and valid password" time="0.000045">
 <system-out><![CDATA[Given This is invalid login test case.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Create an employee" time="0.000049">
+<testcase classname="OrangeHRM application testing" name="Create an employee" time="0.000043">
 <system-out><![CDATA[Given This is employee test case............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Create an admin" time="0.000042">
+<testcase classname="OrangeHRM application testing" name="Create an admin" time="0.000044">
 <system-out><![CDATA[Given This is admin test case...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Assign leave for an employee" time="0.000061">
+<testcase classname="OrangeHRM application testing" name="Assign leave for an employee" time="0.000051">
 <system-out><![CDATA[Given This is leave test case...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Create timesheet for an employee" time="0.000058">
+<testcase classname="OrangeHRM application testing" name="Create timesheet for an employee" time="0.000054">
 <system-out><![CDATA[Given This is timesheet test case...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Search an employee" time="0.000065">
+<testcase classname="OrangeHRM application testing" name="Search an employee" time="0.000046">
 <system-out><![CDATA[Given This is employee test case............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Create attendance Total Summary Report for an employee" time="0.00004">
+<testcase classname="OrangeHRM application testing" name="Create attendance Total Summary Report for an employee" time="0.000059">
 <system-out><![CDATA[Given This is attendance test case..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Add job title" time="0.000067">
+<testcase classname="OrangeHRM application testing" name="Add job title" time="0.000068">
 <system-out><![CDATA[Given This is job test case.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Search for candidate" time="0.000045">
+<testcase classname="OrangeHRM application testing" name="Search for candidate" time="0.000059">
 <system-out><![CDATA[Given This is candidate test case...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Search for vacancy" time="0.000059">
+<testcase classname="OrangeHRM application testing" name="Search for vacancy" time="0.00006">
 <system-out><![CDATA[Given This is vacancy test case.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Verify Orange HRM logo" time="0.000061">
+<testcase classname="OrangeHRM application testing" name="Verify Orange HRM logo" time="0.000064">
 <system-out><![CDATA[Given This is logo test case................................................passed
 ]]></system-out>
 </testcase>
@@ -52,11 +52,11 @@
 <system-out><![CDATA[Given This is password test case............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="Verify all the links on homepage" time="0.000057">
+<testcase classname="OrangeHRM application testing" name="Verify all the links on homepage" time="0.000069">
 <system-out><![CDATA[Given This is homepage test case............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="OrangeHRM application testing" name="search for Performance review of an employee" time="0.000042">
+<testcase classname="OrangeHRM application testing" name="search for Performance review of an employee" time="0.000058">
 <system-out><![CDATA[Given This is Performance review test case..................................passed
 ]]></system-out>
 </testcase>
